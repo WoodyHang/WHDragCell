@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let dragView = WHDragView(frame: self.view.bounds)
+        self.view.addSubview(dragView)
     }
 
     override func didReceiveMemoryWarning() {

@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		8F7B90F61E64230E001CD3D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B90F51E64230E001CD3D8 /* AppDelegate.swift */; };
 		8F7B90F81E64230E001CD3D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B90F71E64230E001CD3D8 /* ViewController.swift */; };
-		8F7B90FB1E64230E001CD3D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7B90F91E64230E001CD3D8 /* Main.storyboard */; };
 		8F7B90FD1E64230E001CD3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7B90FC1E64230E001CD3D8 /* Assets.xcassets */; };
 		8F7B91001E64230E001CD3D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7B90FE1E64230E001CD3D8 /* LaunchScreen.storyboard */; };
 		8F7B910B1E64230F001CD3D8 /* DragCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B910A1E64230F001CD3D8 /* DragCellTests.swift */; };
 		8F7B91161E64230F001CD3D8 /* DragCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B91151E64230F001CD3D8 /* DragCellUITests.swift */; };
+		8F7B91251E64236E001CD3D8 /* WHDragTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B91241E64236E001CD3D8 /* WHDragTool.swift */; };
+		8F7B91281E6427FB001CD3D8 /* WHDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B91271E6427FB001CD3D8 /* WHDragView.swift */; };
+		8F7B912A1E642F31001CD3D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7B91291E642F31001CD3D8 /* Main.storyboard */; };
+		8F7B912C1E643030001CD3D8 /* WHUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B912B1E643030001CD3D8 /* WHUtil.swift */; };
+		8FC390FB1E65501900CBE3C3 /* WHDragCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC390F91E65501900CBE3C3 /* WHDragCell.swift */; };
+		8FC390FC1E65501900CBE3C3 /* WHDragCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FC390FA1E65501900CBE3C3 /* WHDragCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 		8F7B90F21E64230E001CD3D8 /* DragCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F7B90F51E64230E001CD3D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F7B90F71E64230E001CD3D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8F7B90FA1E64230E001CD3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F7B90FC1E64230E001CD3D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F7B90FF1E64230E001CD3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F7B91011E64230E001CD3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		8F7B91111E64230F001CD3D8 /* DragCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F7B91151E64230F001CD3D8 /* DragCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragCellUITests.swift; sourceTree = "<group>"; };
 		8F7B91171E64230F001CD3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F7B91241E64236E001CD3D8 /* WHDragTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHDragTool.swift; sourceTree = "<group>"; };
+		8F7B91271E6427FB001CD3D8 /* WHDragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHDragView.swift; sourceTree = "<group>"; };
+		8F7B91291E642F31001CD3D8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8F7B912B1E643030001CD3D8 /* WHUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHUtil.swift; sourceTree = "<group>"; };
+		8FC390F91E65501900CBE3C3 /* WHDragCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHDragCell.swift; sourceTree = "<group>"; };
+		8FC390FA1E65501900CBE3C3 /* WHDragCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WHDragCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,10 @@
 		8F7B90F41E64230E001CD3D8 /* DragCell */ = {
 			isa = PBXGroup;
 			children = (
+				8F7B91261E642730001CD3D8 /* WHDragView */,
 				8F7B90F51E64230E001CD3D8 /* AppDelegate.swift */,
 				8F7B90F71E64230E001CD3D8 /* ViewController.swift */,
-				8F7B90F91E64230E001CD3D8 /* Main.storyboard */,
+				8F7B91291E642F31001CD3D8 /* Main.storyboard */,
 				8F7B90FC1E64230E001CD3D8 /* Assets.xcassets */,
 				8F7B90FE1E64230E001CD3D8 /* LaunchScreen.storyboard */,
 				8F7B91011E64230E001CD3D8 /* Info.plist */,
@@ -123,6 +134,26 @@
 				8F7B91171E64230F001CD3D8 /* Info.plist */,
 			);
 			path = DragCellUITests;
+			sourceTree = "<group>";
+		};
+		8F7B91231E642342001CD3D8 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				8F7B91241E64236E001CD3D8 /* WHDragTool.swift */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		8F7B91261E642730001CD3D8 /* WHDragView */ = {
+			isa = PBXGroup;
+			children = (
+				8F7B91231E642342001CD3D8 /* Tool */,
+				8F7B91271E6427FB001CD3D8 /* WHDragView.swift */,
+				8F7B912B1E643030001CD3D8 /* WHUtil.swift */,
+				8FC390F91E65501900CBE3C3 /* WHDragCell.swift */,
+				8FC390FA1E65501900CBE3C3 /* WHDragCell.xib */,
+			);
+			name = WHDragView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +224,7 @@
 				TargetAttributes = {
 					8F7B90F11E64230E001CD3D8 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5C6REE77R8;
 						ProvisioningStyle = Automatic;
 					};
 					8F7B91051E64230F001CD3D8 = {
@@ -232,9 +264,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FC390FC1E65501900CBE3C3 /* WHDragCell.xib in Resources */,
+				8F7B912A1E642F31001CD3D8 /* Main.storyboard in Resources */,
 				8F7B91001E64230E001CD3D8 /* LaunchScreen.storyboard in Resources */,
 				8F7B90FD1E64230E001CD3D8 /* Assets.xcassets in Resources */,
-				8F7B90FB1E64230E001CD3D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +293,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F7B90F81E64230E001CD3D8 /* ViewController.swift in Sources */,
+				8F7B91251E64236E001CD3D8 /* WHDragTool.swift in Sources */,
+				8FC390FB1E65501900CBE3C3 /* WHDragCell.swift in Sources */,
 				8F7B90F61E64230E001CD3D8 /* AppDelegate.swift in Sources */,
+				8F7B91281E6427FB001CD3D8 /* WHDragView.swift in Sources */,
+				8F7B912C1E643030001CD3D8 /* WHUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8F7B90F91E64230E001CD3D8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F7B90FA1E64230E001CD3D8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8F7B90FE1E64230E001CD3D8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5C6REE77R8;
 				INFOPLIST_FILE = DragCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Woodyhang.DragCell;
@@ -424,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5C6REE77R8;
 				INFOPLIST_FILE = DragCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Woodyhang.DragCell;
@@ -505,6 +536,7 @@
 				8F7B911C1E64230F001CD3D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F7B911D1E64230F001CD3D8 /* Build configuration list for PBXNativeTarget "DragCellTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +545,7 @@
 				8F7B911F1E64230F001CD3D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F7B91201E64230F001CD3D8 /* Build configuration list for PBXNativeTarget "DragCellUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +554,7 @@
 				8F7B91221E64230F001CD3D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
